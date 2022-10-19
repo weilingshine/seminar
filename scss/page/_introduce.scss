@@ -1,0 +1,887 @@
+//論壇BN
+.banner {
+  background: linear-gradient(-90deg, #2196F3 0%, #0D47A1 100%);
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 90px 30px;
+  @include b991 {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -7%;
+    width: 100%;
+    height: 100%;
+    background: url(#{$assetPath}/banner_right_after.svg) right top no-repeat;
+    background-size: 70%;
+    opacity: 0.7;
+    z-index: 0;
+    @include b991 {
+        right: 0;
+        background-size: 100%;
+    }
+  }
+  nav {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1;
+    @include b1190 {
+      padding: 0 30px;
+    }
+    @include b991 {
+      position: relative;
+      top: 0;
+      padding: 0 20px 20px 20px;
+    }
+    .breadcrumb {
+      .breadcrumb-item {
+        color: var(--white);
+        &.active {
+          &::before {
+            background: var(--yellow);
+          }
+        }
+      }
+      a {
+        color: var(--white);
+      }
+    }
+  }
+  .slogan {
+    width: 100%;
+    max-width: 605px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    @include b1190 {
+      max-width: 520px;
+    }
+    @include b991 {
+      width: calc(100% - 40px);
+      align-items: center;
+    }
+    span {
+      margin-bottom: 30px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.3333;
+      color: var(--gray-4);
+      @include b991 {
+          text-align: center;
+      }
+      @include b768 {
+          font-size: 16px;
+          margin-bottom: 15px;
+          line-height: 1.4;
+      }
+    }
+  }
+  h1 {
+    @include b991 {
+        margin: 0 0 25px 0;
+    }
+  }
+  h2 {
+    font-size: 120px;
+    font-weight: 100;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    @include b1190 {
+        font-size: 60px;
+    }
+    @include b768 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+}
+  b {
+    font-weight: bold;
+  }
+  .color_secondary {
+    color: var(--yellow);
+  }
+  .apply_btn {
+    color: var(--blue-2);
+    text-decoration: none;
+    background: var(--white);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 380px;
+    width: calc( 100% - 40px );
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+    transition: .3s ease-in-out;
+    &:hover {
+        background: var(--yellow);
+    }
+    @include b768 {
+        font-size: 18px;
+    }
+  }
+  .slogan_dec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-left: -70px;
+    @include b991 {
+        margin-left: 0;
+    }
+    .slogan_img {
+        max-width: 750px;
+        width: 100%;
+        height: auto;
+        display: block;
+        @include b991 {
+            display: none;
+        }
+    }
+    .subtitle {
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+  }
+  .apply_btn {
+    b {
+      color: var(--red);
+    }
+  }
+}
+
+.banner_1123 {
+  &::after {
+    right: 0;
+    background: url(#{$assetPath}/banner_bg_1123.png) right top no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    @include b991 {
+      opacity: 0.4;
+    }
+  }
+  h2 {
+    font-size: 105px;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
+    @include b1190 {
+      font-size: 60px;
+    }
+    @include b768 {
+      font-size: 45px;
+      margin-bottom: 15px;
+    }
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    @include b991 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .slogan {
+    max-width: 550px;
+    margin-right: 70px;
+    span {
+      margin-bottom: 50px;
+      font-size: 20px;
+      line-height: 1.5;
+      color: var(--white);
+      display: block;
+      max-width: 500px;
+      text-shadow: 0px 2px 2px rgb(0 0 0 / 80%);
+    }
+
+    @include b991 {
+      margin-right: 0px;
+      span {
+        font-size: 18px;
+      }
+    }
+  }
+  .slogan_dec {
+    margin-left: 0;
+  }
+}
+
+.articleBlock01,.articleBlock03 {
+  h3 {
+    font-size: 34px;
+    font-weight: 500;
+    color: var(--white);
+    background: url(#{$assetPath}/title_bg.svg) center no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 65px;
+    max-width: 245px;
+    padding: 0 30px;
+    line-height: 76px;
+    @include b991 {
+        font-size: 24px;
+        max-width: 190px;
+        height: 50px;
+        line-height: 58px;
+        padding: 0 25px;
+        margin-right: 0;
+    }
+  }
+}
+
+//議題探討
+.articleBlock01 {
+  padding: 60px 0 0 0;
+  overflow: hidden;
+  @include b1190 {
+    padding: 30px 20px 0 20px;
+  }
+  h3 {
+    margin-bottom: 40px;
+    @include b768 {
+      margin-bottom: 25px;
+    }
+  }
+  .event_info {
+    text-align: center;
+    padding: 0 0 130px 0;
+    ul {
+      margin: 0 0 40px 0;
+      padding: 0;
+      list-style: none;
+      color: #0E49A2;
+      font-size: 28px;
+      font-weight: 600;
+      @include b991 {
+        font-size: 21px;
+      }
+    }
+    li {
+      margin-bottom: 15px;
+    }
+    .btn {
+      a {
+        color: var(--blue-2);
+        font-size: 24px;
+        font-weight: 600;
+        background: var(--yellow);
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        padding: 15px;
+        display: inline-block;
+        max-width: 350px;
+        width: 100%;
+        position: relative;
+        &:hover {
+          box-shadow: 0px 0px 0px rgb(0 0 0 / 25%);
+          top: 4px;
+        }
+        @include b991 {
+          font-size: 21px;
+        }
+      }
+    }
+  }
+  .article_content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    flex-wrap: wrap;
+    padding: 0;
+    position: relative;
+    @include b1190 {
+      padding: 0 12px;
+      margin-bottom: 60px;
+    }
+    @include b640 {
+      padding: 0 30px;
+    }
+  }
+  .guest {
+    position: relative;
+    width: calc( 100% / 4 - 30px );
+    margin-bottom: 50px;
+    z-index: 1;
+    @include b991 {
+      width: calc( 100% / 2 - 30px );
+      margin-bottom: 20px;
+    }
+    @include b640 {
+      width: 100%;
+    }
+    &:before,&:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+    }
+    &::before {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(150deg, #2196F3 0%, #0D47A1 95%, transparent 95%);
+    }
+    &::after {
+      top: 4px;
+      left: 3px;
+      width: 98%;
+      height: 98%;
+      background: linear-gradient(150deg, #fff 0%, #fff, #fff, #fff 95%, transparent 95%);
+    }
+    img {
+      width: 100%;
+      margin: 13px 0 0 -12px;
+    }
+  }
+  .caption {
+      padding: 20px;
+      h2 {
+          font-weight: 700;
+          font-size: 26px;
+          margin-bottom: 8px;
+      }
+      p {
+      color: var(--gray-2);
+          font-weight: 400;
+      }
+  }
+  .issue_content {
+      font-size: 48px;
+      font-weight: 400;
+      color: var(--blue-3);
+      margin-bottom: 120px;
+      @include b1190 {
+          padding-left: 30px;
+      }
+      @include b768 {
+          padding-left: 100px;
+          // margin-left: 40px;
+          font-size: 24px;
+          margin-bottom: 60px;
+      }
+      .issue_bg {
+          position: relative;
+          padding-left: 70px;
+          @include b768 {
+            font-size: 30px;
+            padding-left: 10px;
+          }
+          &::before {
+              content: '';
+              position: absolute;
+              top: 24px;
+              left: 0;
+              background: url(#{$assetPath}/title_frame01_bg.svg);
+              width: 580px;
+              height: 120px;
+              background-size: contain;
+              background-repeat: no-repeat;
+              z-index: -1;
+              @include b768 {
+                  width: 100%;
+                  height: 80px;
+                  top: 15px;
+                  left: -35px;
+                  background-position: left;
+                  background-size: 55%;
+              }
+              @include b640 {
+                background-size: 65%;
+              }
+              @include b551 {
+                background-size: 75%;
+              }
+              @include b480 {
+                background-size: 90%;
+              }
+          }
+      }
+      span {
+          font-weight: 700;
+      }
+  }
+  .issue_1123 {
+    position: relative;
+    &::after {
+      content: "";
+      display: inline-block;
+      background: url(#{$assetPath}/bg_r_y.svg) center no-repeat;
+      background-size: 100%;
+      width: 553px;
+      height: 592px;
+      position: absolute;
+      z-index: -2;
+      top: -50px;
+      right: -30%;
+      @include b991 {
+        background-size: 50%;
+        top: -180px;
+      }
+      @include b551 {
+        right: -70%;
+      }
+    }
+    @include b991 {
+      
+      .issue_con_block {
+        font-size: 24px;
+      }
+    }
+    @include b768 {
+      padding-left: 40px;
+      .issue_con_block {
+        margin-left: -40px;
+        width: calc( 100% + 40px );
+      }
+    }
+    @include b551 {
+      .issue_con_block {
+        font-size: 21px;
+      }
+    }
+  }
+  .guest_vip {
+    &::after {
+      content: "";
+      display: inline-block;
+      background: url(#{$assetPath}/rectangle_element.svg) center no-repeat;
+      background-size: 100%;
+      width: 280px;
+      height: 280px;
+      position: absolute;
+      z-index: -2;
+      left: 17%;
+      top: 20%;
+    }
+  }
+  .guest_p01 {
+    margin-bottom: 40px;
+    &::before,&:after {
+      content: "";
+      display: inline-block;
+      background: url(#{$assetPath}/rectangle_element.svg) center no-repeat;
+      background-size: 100%;
+      position: absolute;
+      z-index: -2;
+    }
+    &::before {
+      width: 250px;
+      height: 250px;
+      left: -20%;
+      top: 155px;
+    }
+    &::after {
+      width: 450px;
+      height: 450px;
+      right: -30%;
+      top: -230px;
+      @include b768 {
+          top: auto;
+          bottom: 0;
+      }
+    }
+  }
+  .guest_p02 {
+    &::before {
+      content: "";
+      display: inline-block;
+      background: url(#{$assetPath}/rectangle_element.svg) center no-repeat;
+      background-size: 100%;
+      position: absolute;
+      z-index: -2;
+    }
+    &::before {
+      width: 250px;
+      height: 250px;
+      left: -20%;
+      top: 40%;
+    }
+  }
+  .issue_text {
+    font-size: 24px;
+    color: var(--blue-3);
+    margin-top: 40px;
+    @include b768 {
+      // margin-top: 25px;
+      margin-top: 30px;
+      font-size: 18px;
+      // margin-left: -100px;
+      margin-left: -40px;
+      line-height: 1.333;
+    }
+    @include b551 {
+      font-size: 16px;
+    }
+  }
+  .issue_con_block {
+    font-size: 28px;
+    max-width: 880px;
+    width: 100%;
+    padding-top: 70px;
+    
+    h4 {
+      margin-bottom: 20px;
+      span {
+        background: var(--gradient-1);
+        color: var(--white);
+        display: inline-block;
+        padding: 5px 20px;
+      }
+    }
+    .text {
+      line-height: 1.8;
+      @include b551 {
+        line-height: 1.5;
+      }
+      ul {
+        margin: 20px 0;
+        padding: 0;
+        list-style: none;
+        font-weight: 700;
+      }
+      li {
+        &::before {
+          content: '';
+          display: inline-block;
+          background: var(--gradient-1);
+          width: 28px;
+          height: 2px;
+          margin-right: 15px;
+        }
+      }
+    }
+    .red_color {
+      color: var(--red);
+    }
+  }
+  .forum_1123 {
+    justify-content: start;
+    &::before {
+      content: "";
+      display: inline-block;
+      background: url(#{$assetPath}/rectangle_element.svg) center no-repeat;
+      background-size: 100%;
+      position: absolute;
+      z-index: -2;
+      width: 250px;
+      height: 250px;
+      left: -20%;
+      top: 155px;
+    }
+    &::after {
+      display: none;
+    }
+    .guest {
+      &:first-child {
+        margin-right: 40px;
+        @include b640 {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+//議程規劃
+.articleBlock02 {
+  padding: 80px 0;
+  background: var(--gradient-1);
+  @include b1190 {
+    padding: 60px 30px;
+  }
+  @include b768 {
+    padding: 30px 15px;
+  }
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: 200;
+    position: relative;
+    @include b1190 {
+      font-size: 30px;
+    }
+    @include b768 {
+      margin-bottom: 20px;
+    }
+    &:before,&:after {
+      content: "";
+      display: inline-block;
+      background: url(#{$assetPath}/title_white_bg.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 100%;
+      max-width: 505px;
+      height: 40px;
+      position: absolute;
+      background-size: cover;
+      @include b1190 {
+        max-width: 380px;
+        height: 30px;
+        background-repeat: repeat;
+      }
+      @include b991 {
+        max-width: 300px;
+      }
+      @include b768 {
+        display: none;
+      }
+    }
+    &:before {
+      left: 0;
+    }
+    &:after {
+      right: 0;
+    }
+  }
+  .agenda-plan {
+    margin-bottom: 60px;
+    @include b768 {
+      margin-bottom: 35px;
+    }
+  }
+  .item {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background: linear-gradient(155deg, transparent 8%, #000 8%,#000 92%,transparent 92%);
+      filter: blur(8px);
+      opacity: 0.25;
+      @include b768 {
+        display: none;
+      }
+    }
+  }
+  .itemblur {
+    display: flex;
+    align-items: center;
+    padding: 30px 60px;
+    color: var(--blue-3);
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    min-height: 120px;
+    background-color: #fff;
+    clip-path: polygon(100% 0, 100% 70%, 90% 100%, 0% 100%, 0 30%, 10% 0);
+    @include b991 {
+      background: var(--gray-5);
+      min-height: auto;
+      padding: 25px 30px;
+    }
+    @include b768 {
+      flex-direction: column;
+      padding: 10px 15px;
+    }
+    .time {
+      font-size: 32px;
+      max-width: 205px;
+      display: block;
+      width: 100%;
+      text-align: right;
+      font-family: "Noto Sans TC";
+      @include b991 {
+        font-size: 24px;
+        max-width: 152px;
+        text-align: center;
+      }
+    }
+    .text {
+      position: relative;
+      padding: 0 0 0 33px;
+      margin: 0 0 0 30px;
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      font-size: 28px;
+      line-height: 1.3333;
+      @include b991 {
+        font-size: 20px;
+      }
+      @include b768 {
+        padding: 8px 0 0 0;
+        margin: 0;
+        min-height: auto;
+        text-align: center;
+      }
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(99.12deg, #2196F3 -10.98%, #0D47A1 105.41%);
+        position: absolute;
+        left: 0;
+        @include b768 {
+          display: none;
+        }
+      }
+    }
+  }
+  .item+.item {
+    margin-top: 30px;
+    @include b768 {
+      margin-top: 15px;
+    }
+  }
+  .btn {
+    text-align: center;
+    a {
+      color: var(--blue-2);
+      font-size: 24px;
+      font-weight: 600;
+      background: var(--white);
+      box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+      padding: 15px;
+      display: inline-block;
+      max-width: 350px;
+      width: 100%;
+      &:hover {
+        background: var(--yellow);
+      }
+    }
+  }
+}
+
+//主辦、指導、協辦單位
+.articleBlock03 {
+  padding: 80px 0;
+  @include b1375 {
+    padding: 30px 0;
+  }
+  @include b1190 {
+    padding: 30px 20px;
+  }
+  h3 {
+    margin-right: 45px;
+    @include b991 {
+      margin-right: 0;
+    }
+  }
+  .unit {
+    display: flex;
+    align-items: center;
+    @include b991 {
+      flex-direction: column;
+    }
+  }
+  .unit+.unit {
+    @include b991 {
+      margin-top: 30px;
+    }
+  }
+  .unit-host {
+    .unit-img {
+      width: 100%;
+      max-width: 350px;
+      @include b991 {
+        max-width: 220px;
+      }
+    }
+  }
+  .unit-guide,.unit-organizer {
+    .unit-img {
+      width: 100%;
+      max-width: 200px; 
+      @include b551 {
+        text-align: center;
+      }
+      img {
+        @include b551 {
+          width: 100%;
+          max-width: 130px;
+        }
+      }
+    }
+    span {
+      font-size: 22px;
+      line-height: 1.3333;
+      font-weight: 500;
+      min-height: 65px;
+      display: block;
+      color: var(--black);
+      text-align: center;
+      @include b1375 {
+        font-size: 20px;
+      }
+      @include b991 {
+        font-size: 18px;
+        display: block;
+        text-align: center;
+        min-height: auto;
+      }
+    }
+    .unit-img {
+        a {
+            &:hover {
+                span {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+  }
+  .unit-organizer {
+    align-items: flex-start;
+    @include b991 {
+      align-items: center;
+    }
+    h3 {
+      margin-top: 90px;
+      @include b991 {
+        margin-top: 0;
+      }
+    }
+  }
+  .unit-img-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @include b991 {
+      justify-content: center;
+    }
+    .unit-img {
+      margin-right: 50px;
+      width: 100%;
+      max-width: 190px;
+      @include b991 {
+        margin: 0 25px;
+      }
+      @include b551 {
+        max-width: 230px;
+      }
+      &:nth-child(4n) {
+        margin-right: 0;
+        @include b991 {
+          margin-right: 25px;
+        }
+      }
+    }
+    span {
+      display: block;
+      text-align: center;
+    }
+  }
+}

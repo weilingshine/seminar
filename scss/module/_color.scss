@@ -1,0 +1,22 @@
+// 顏色
+:root {
+    --white:#ffffff;
+    --black:#000000;
+
+    --blue-1: #00569F;
+    --blue-2: #004397;
+    --blue-3: #0D47A1;
+    --blue-4: #1D85E1;
+
+    --red: #DB0000;
+    --yellow: #FFE500;
+
+    --gray-1: #272727;
+    --gray-2: #282D32;
+    --gray-3: #949494;
+    --gray-4: #e2e2e2;
+    --gray-5: #f7f7f7;
+
+    --gradient-1: transparent linear-gradient(90deg, #2196F3 0%, #0D47A1 100%) 0% 0% no-repeat;
+    --gradient-2: transparent linear-gradient(90deg, #000000 0%, #00000000 100%) 0% 0% no-repeat;
+}
