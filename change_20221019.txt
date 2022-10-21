@@ -1,0 +1,11 @@
+新增：
+
+ftp://etd@192.168.1.234/event22/design/seminar/images/introduce_20221123/talker01-6.jpg
+
+
+
+更新：
+
+ftp://etd@192.168.1.234/event22/design/seminar/forum/20221123/introduce.html
+
+ftp://etd@192.168.1.234/event22/design/seminar/images/introduce_20221123/talker01-5.jpg
