@@ -1098,6 +1098,14 @@ footer .foot-link .link-social:hover img {
     top: 7%;
   }
 }
+.technology-forum .content:not(:last-child) {
+  margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .technology-forum .content:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 .technology-forum .forum-title {
   -webkit-box-align: center;
       -ms-flex-align: center;
