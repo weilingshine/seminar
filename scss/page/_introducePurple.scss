@@ -1,0 +1,69 @@
+.introducePurple.articleBlock01 {
+    .event_info{
+        ul {
+            color: #582A89;
+        }
+        .btn {
+            a {
+                color: #582A89;
+            }
+        }
+    }
+    .guest {
+        &::before {
+            background: linear-gradient(150deg, #CF35C0 0%, #4D1790 95%, transparent 95%);
+        }
+    }
+    .issue_content {
+        color: #582A89;
+        .issue_bg {
+            &::before {
+                border-image: linear-gradient(135deg, #CF35C0, #4D1790);
+                border-image-slice: 1;
+            }
+            &::after {
+                border-image: linear-gradient(60deg, #CF35C0, #4D1790);
+                border-image-slice: 1;
+            }
+        }
+
+
+    }
+    .issue_text {
+        color: #582A89;
+    }
+    .issue_con_block {
+        h4 {
+            span {
+                background:  transparent linear-gradient(90deg, #CF35C0 0%, #4D1790 100%) 0% 0% no-repeat;
+            }
+        }
+    }
+
+}
+
+.introducePurple.articleBlock02 {
+    background: transparent linear-gradient(90deg, #CF35C0 0%, #4D1790 100%) 0% 0% no-repeat;
+    .itemblur {
+        color: #582A89;
+        .text {
+            &::before {
+                background: linear-gradient(99.12deg, #CF35C0 -10.98%, #4D1790 105.41%);
+            }
+            em {
+                background: #582A89
+            }
+        }
+    }
+    .btn {
+        a {
+            color: #582A89;
+        }
+    }
+}
+.introducePurple.articleBlock01,.introducePurple.articleBlock03, .introducePurple.articleBlock03 {
+    h3 {
+      background: url(#{$assetPath}/title_bg_purple.svg) center center no-repeat;
+      background-size: 100%;
+    }
+}

@@ -137,4 +137,34 @@
     color: var(--blue-2);
     margin: 45px 0 15px 0;
   }
+  .btn-block {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    align-items: center;
+    a {
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--blue-2);
+      border: 1px solid var(--blue-2);
+      background: var(--yellow);
+      display: inline-block;
+      width: 100%;
+      max-width: 300px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      &:hover {
+        box-shadow: none;
+      }
+    }
+    span {
+      padding-top: 5px;
+      color: var(--gray-3);
+      font-size: 18px;
+    }
+  }
 }

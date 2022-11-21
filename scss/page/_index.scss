@@ -607,9 +607,9 @@
                     font-size: 18px;
                     padding: 20px;
                 }
-                @include b551 {
-                    display: none;
-                }
+                // @include b551 {
+                //     display: none;
+                // }
             }
         }
     }
@@ -667,7 +667,7 @@
             font-size: 15px;
             font-weight: 400;
             width: 100%;
-            max-width: 80px;
+            max-width: 110px;
             text-align: center;
             margin-left: -100px;
             @include b991 {

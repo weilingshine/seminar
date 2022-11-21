@@ -1008,9 +1008,8 @@ footer .foot-link .link-social:hover img {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1026,8 +1025,8 @@ footer .foot-link .link-social:hover img {
   .float-btn-block a {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+        flex-direction: row;
     border-radius: 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
