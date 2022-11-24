@@ -12,7 +12,7 @@ header = '<header>\
                 <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/talents.html" class="nav-link">新秀人才</a></li>\
                 <!-- <li class="nav-item"><a href="https://www.technice.com.tw/" class="nav-link" target="_blank">科技新知</a></li> -->\
                 <!-- <li class="nav-item"><a href="javascript:;" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">駐站專家</a></li> -->\
-                <li class="nav-item"><a href="javascript:;" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">精選企業</a></li>\
+                <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/index.html#special-corp">精選企業</a></li>\
                 <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/about-us.html" class="nav-link">關於我們</a></li>\
                 <!-- <li><a href="javascript:;" class="search"><img src="images/icon_search.svg"></a></li> -->\
             </ul>\
