@@ -7,7 +7,7 @@ header = '<header>\
         <div class="sidebar-slide collapse collapse-horizontal" id="collapseWidthExample">\
             <ul class="nav">\
                 <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/index.html" class="nav-link">首頁</a></li>\
-                <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/forum/20221123/introduce.html" class="nav-link">論壇講座</a></li>\
+                <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/forum/20221220/introduce.html" class="nav-link">論壇講座</a></li>\
                 <li class="nav-item"><a href="https://www.technice.com.tw/tag/%e7%bc%ba%e5%b7%a5/" class="nav-link">相關報導</a></li>\
                 <li class="nav-item"><a href="http://192.168.1.234/event22/design/seminar/talents.html" class="nav-link">新秀人才</a></li>\
                 <!-- <li class="nav-item"><a href="https://www.technice.com.tw/" class="nav-link" target="_blank">科技新知</a></li> -->\
