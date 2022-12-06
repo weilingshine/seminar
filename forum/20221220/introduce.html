@@ -109,7 +109,7 @@
                     </div>
                 </div>
                 <div class="guest">
-                  <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20221220/guest06.jpg?v=202211241706">
+                  <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20221220/guest06.jpg?v=20221205">
                   <div class="caption">
                       <h2>朱以方</h2>
                       <p>台灣微軟 Microsoft 365 事業部 副總經理</p>
@@ -156,18 +156,51 @@
                         <h2>林筱婷(邀約中)</h2>
                         <p>天工精密 總經理</p>
                     </div>
-                  </div> 
-				
-				  <div class="guest">
-                    <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20221220/guest09.jpg">
-                    <div class="caption">
-                        <h2>賴香伶 (邀約中)</h2>
-                        <p>立法委員</p>
-                    </div>
-                  </div>              
+                  </div>             
                 </div>
 
+                <h3>報名者發問</h3>
+                <div class="article_qa_content">
+                    <div class="swiper qa_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>軟體科技業</h4>
+                                        <p>想了解科技產業確切的人力分佈，以及男女比例？<br>因為以往提到科技業似乎比較偏男性居多的產業，那要如何增進女性在此產業的亮點與發展呢？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>半導體製造業</h4>
+                                        <p>如何在就業職場中提供相同的機會給女性？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>商務旅宿業</h4>
+                                        <p>不知有沒有關於科技業女性二度就業的機會與成功案例可以參考？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>教育文創業</h4>
+                                        <p>如何強化與歐洲創新單位的女力領域的合作？</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div> 
             </div>
+            
         </article>
         <article class="articleBlock articleBlock02">
             <div class="container">
@@ -308,6 +341,38 @@
     <script src="http://192.168.1.234/event22/design/seminar/vendor/swiper/swiper-bundle.min.js?v=202210281741"></script>
     <script src="http://192.168.1.234/event22/design/seminar/vendor/aos/aos.js"></script>
     <script type="text/javascript">
+        var swiper = new Swiper(".qa_swiper", {
+            direction: "vertical",
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            spaceBetween: 24,
+            // mousewheel: true,
+            // grabCursor: true,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                551: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                },
+                768: {
+                    slidesPerView: 2,
+                    slidesPerGroup: 2,
+                },
+                769: {
+                    slidesPerView: 4,
+                    slidesPerGroup: 4,
+                    loop: false,
+                },
+            },
+        });
         $(function($) {
             $(".slidebar-btn").on('click',function(e){
                 $(this).toggleClass('active');
