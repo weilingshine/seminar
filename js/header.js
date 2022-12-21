@@ -13,6 +13,7 @@ header = '<header>\
                         <ul class="inner">\
                             <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221220/introduce.html">12/20&ensp;科技女力崛起論壇</a></li>\
                             <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221123/introduce.html">11/23&ensp;南部轉型留才論壇</a></li>\
+                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221003/introduce.html">10/03&ensp;科技人才荒論壇</a></li>\
                         </ul>\
                     </div>\
                 </li>\
