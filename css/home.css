@@ -705,6 +705,12 @@ footer .foot-link .link-social:hover img {
   margin: 0 0 55px 0;
   font-size: 120px;
   position: relative;
+  display: inline-block;
+}
+@media (max-width: 1024px) {
+  .index-banner .slogan h1 {
+    font-size: 100px;
+  }
 }
 @media (max-width: 768px) {
   .index-banner .slogan h1 {
@@ -730,15 +736,27 @@ footer .foot-link .link-social:hover img {
 }
 .index-banner .slogan span {
   font-weight: 200;
+  display: block;
   padding-bottom: 30px;
   position: absolute;
-  right: -40%;
+  right: -39%;
   top: 55%;
+}
+@media (max-width: 1024px) {
+  .index-banner .slogan span {
+    font-size: 100px;
+    right: -40%;
+  }
 }
 @media (max-width: 768px) {
   .index-banner .slogan span {
-    right: 0%;
+    font-size: 60px;
     top: 90%;
+  }
+}
+@media (max-width: 551px) {
+  .index-banner .slogan span {
+    right: -10%;
   }
 }
 .index-banner .slogan p {
