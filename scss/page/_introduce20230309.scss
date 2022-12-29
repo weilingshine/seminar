@@ -1,0 +1,97 @@
+.introduce20230309.articleBlock01 {
+    // 活動日期時顛地點色彩
+    .event_info{
+        ul {
+            color: #0C7B73;
+        }
+        .btn {
+            a {
+                color: #0C7B73;
+            }
+        }
+    }
+    // 背景裝飾圖片
+    .forum_1123 {
+        &::before {
+            background: url(#{$assetPath}/introduce_20230309/rectangle_element.svg) center no-repeat;
+        }
+    }
+    // 貴賓&與談人外框色彩
+    .guest {
+        &::before {
+            background: linear-gradient(150deg, #00B0B0 0%, #0C7B73 95%, transparent 95%);
+        }
+        &_p01 {
+            &::before {
+                background: url(#{$assetPath}/introduce_20230309/rectangle_element.svg) center no-repeat;
+            }
+            &::after {
+                background: url(#{$assetPath}/introduce_20230309/rectangle_element.svg) center no-repeat;
+                background-size: 100%;
+            }
+        }
+    }
+    .issue_content {
+        color: #0C7B73;
+        // 議題探討主標左右裝飾線條
+        .issue_bg {
+            &::before {
+                border-image: linear-gradient(135deg, #00B0B0, #0C7B73);
+                border-image-slice: 1;
+            }
+            &::after {
+                border-image: linear-gradient(60deg, #00B0B0, #0C7B73);
+                border-image-slice: 1;
+            }
+        }
+    }
+    // 主持人文字
+    .issue_text {
+        color: #0C7B73;
+    }
+    // 議題探討 緣起 背景色
+    .issue_con_block {
+        h4 {
+            span {
+                background:  transparent linear-gradient(90deg, #00B0B0 0%, #0C7B73 100%) 0% 0% no-repeat;
+            }
+        }
+    }
+    // QA
+    .qa_swiper {
+        .qa_itemblur {
+            color: #0C7B73;
+        }
+    }
+
+}
+
+// 議程規劃 背景色
+.introduce20230309.articleBlock02 {
+    background: transparent linear-gradient(90deg, #00B0B0 0%, #0C7B73 100%) 0% 0% no-repeat;
+    // 議程規劃 文字色彩
+    .itemblur {
+        color: #0C7B73;
+        .text {
+            &::before {
+                background: linear-gradient(99.12deg, #00B0B0 -10.98%, #0C7B73 105.41%);
+            }
+            em {
+                background: #0C7B73
+            }
+        }
+    }
+    // 按鈕顏色
+    .btn {
+        a {
+            color: #0C7B73;
+        }
+    }
+}
+// 分區章節背景圖
+.introduce20230309.articleBlock01, .introduce20230309.articleBlock03 {
+    h3 {
+      background: url(#{$assetPath}/introduce_20230309/title_bg.svg) center center no-repeat;
+      background-size: 100%;
+    }
+}

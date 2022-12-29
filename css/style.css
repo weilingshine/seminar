@@ -2002,13 +2002,11 @@ footer .foot-link .link-social:hover img {
 .bannerImgRwd nav .breadcrumb a {
   color: var(--white);
 }
-.bannerImgRwd picture {
+.bannerImgRwd a {
+  display: block;
   width: 100%;
 }
-.bannerImgRwd picture source {
-  width: 100%;
-}
-.bannerImgRwd picture source img {
+.bannerImgRwd a img {
   width: 100%;
 }
 
@@ -2061,5 +2059,70 @@ footer .foot-link .link-social:hover img {
 
 .introducePurple.articleBlock01 h3, .introducePurple.articleBlock03 h3, .introducePurple.articleBlock03 h3 {
   background: url(http://192.168.1.234/event22/design/seminar/images/title_bg_purple.svg) center center no-repeat;
+  background-size: 100%;
+}
+
+.introduce20230309.articleBlock01 .event_info ul {
+  color: #0C7B73;
+}
+.introduce20230309.articleBlock01 .event_info .btn a {
+  color: #0C7B73;
+}
+.introduce20230309.articleBlock01 .forum_1123::before {
+  background: url(http://192.168.1.234/event22/design/seminar/images/introduce_20230309/rectangle_element.svg) center no-repeat;
+}
+.introduce20230309.articleBlock01 .guest::before {
+  background: linear-gradient(150deg, #00B0B0 0%, #0C7B73 95%, transparent 95%);
+}
+.introduce20230309.articleBlock01 .guest_p01::before {
+  background: url(http://192.168.1.234/event22/design/seminar/images/introduce_20230309/rectangle_element.svg) center no-repeat;
+}
+.introduce20230309.articleBlock01 .guest_p01::after {
+  background: url(http://192.168.1.234/event22/design/seminar/images/introduce_20230309/rectangle_element.svg) center no-repeat;
+  background-size: 100%;
+}
+.introduce20230309.articleBlock01 .issue_content {
+  color: #0C7B73;
+}
+.introduce20230309.articleBlock01 .issue_content .issue_bg::before {
+  -o-border-image: linear-gradient(135deg, #00B0B0, #0C7B73);
+     border-image: linear-gradient(135deg, #00B0B0, #0C7B73);
+  border-image-slice: 1;
+}
+.introduce20230309.articleBlock01 .issue_content .issue_bg::after {
+  -o-border-image: linear-gradient(60deg, #00B0B0, #0C7B73);
+     border-image: linear-gradient(60deg, #00B0B0, #0C7B73);
+  border-image-slice: 1;
+}
+.introduce20230309.articleBlock01 .issue_text {
+  color: #0C7B73;
+}
+.introduce20230309.articleBlock01 .issue_con_block h4 span {
+  background: transparent -webkit-gradient(linear, left top, right top, from(#00B0B0), to(#0C7B73)) 0% 0% no-repeat;
+  background: transparent linear-gradient(90deg, #00B0B0 0%, #0C7B73 100%) 0% 0% no-repeat;
+}
+.introduce20230309.articleBlock01 .qa_swiper .qa_itemblur {
+  color: #0C7B73;
+}
+
+.introduce20230309.articleBlock02 {
+  background: transparent -webkit-gradient(linear, left top, right top, from(#00B0B0), to(#0C7B73)) 0% 0% no-repeat;
+  background: transparent linear-gradient(90deg, #00B0B0 0%, #0C7B73 100%) 0% 0% no-repeat;
+}
+.introduce20230309.articleBlock02 .itemblur {
+  color: #0C7B73;
+}
+.introduce20230309.articleBlock02 .itemblur .text::before {
+  background: linear-gradient(99.12deg, #00B0B0 -10.98%, #0C7B73 105.41%);
+}
+.introduce20230309.articleBlock02 .itemblur .text em {
+  background: #0C7B73;
+}
+.introduce20230309.articleBlock02 .btn a {
+  color: #0C7B73;
+}
+
+.introduce20230309.articleBlock01 h3, .introduce20230309.articleBlock03 h3 {
+  background: url(http://192.168.1.234/event22/design/seminar/images/introduce_20230309/title_bg.svg) center center no-repeat;
   background-size: 100%;
 }
