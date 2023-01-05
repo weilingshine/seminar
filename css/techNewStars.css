@@ -362,9 +362,6 @@ header .dropdown-menu .inner a:hover {
     border-radius: 0;
   }
 }
-header .dropdown-menu .inner li + li + li + li {
-  margin-top: 6px;
-}
 @media (max-width: 991px) {
   header .nav li:hover .nav-link {
     background: linear-gradient(99.12deg, #2196F3 -10.98%, #0D47A1 105.41%);

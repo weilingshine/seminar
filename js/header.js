@@ -11,10 +11,10 @@ header = '<header>\
                     <a href="javascript:;" class="nav-link">論壇講座</a>\
                     <div class="dropdown-menu">\
                         <ul class="inner">\
-                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20230309/introduce.html">3/9&ensp;觀光餐旅缺工論壇</a></li>\
-                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221220/introduce.html">12/20&ensp;科技女力崛起論壇</a></li>\
-                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221123/introduce.html">11/23&ensp;南部轉型留才論壇</a></li>\
-                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221003/introduce.html">10/03&ensp;科技人才荒論壇</a></li>\
+                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20230309/introduce.html">2023/3/9&ensp;觀光餐旅缺工論壇</a></li>\
+                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221220/introduce.html">2022/12/20&ensp;科技女力崛起論壇</a></li>\
+                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221123/introduce.html">2022/11/23&ensp;南部轉型留才論壇</a></li>\
+                            <li><a href="http://192.168.1.234/event22/design/seminar/forum/20221003/introduce.html">2022/10/03&ensp;科技人才荒論壇</a></li>\
                         </ul>\
                     </div>\
                 </li>\
