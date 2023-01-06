@@ -389,19 +389,33 @@ header .nav li:hover .dropdown-menu {
   display: -ms-flexbox;
   display: flex;
 }
+@media (max-width: 768px) {
+  .breadcrumb {
+    display: block;
+  }
+}
 .breadcrumb .breadcrumb-item {
   position: relative;
+}
+@media (max-width: 768px) {
+  .breadcrumb .breadcrumb-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    display: inline;
+    word-break: break-all;
+  }
 }
 .breadcrumb .breadcrumb-item.active::before {
   content: "";
   position: absolute;
-  bottom: -4px;
+  bottom: -2px;
   left: 0;
   width: 100%;
   height: 1px;
 }
 .breadcrumb .breadcrumb-item + .breadcrumb-item {
   margin-left: 30px;
+  margin-bottom: 4px;
 }
 .breadcrumb .breadcrumb-item + .breadcrumb-item::after {
   content: ">";
@@ -1987,7 +2001,7 @@ footer .foot-link .link-social:hover img {
 }
 @media (max-width: 991px) {
   .bannerImgRwd nav {
-    padding: 0 50px 20px 50px;
+    padding: 0 20px 20px;
   }
 }
 .bannerImgRwd nav .breadcrumb .breadcrumb-item {
@@ -2002,6 +2016,11 @@ footer .foot-link .link-social:hover img {
 .bannerImgRwd a {
   display: block;
   width: 100%;
+}
+@media (max-width: 768px) {
+  .bannerImgRwd a {
+    display: inline;
+  }
 }
 .bannerImgRwd a img {
   width: 100%;

@@ -1107,7 +1107,7 @@
       padding: 0 30px;
     }
     @include b991 {
-      padding: 0 50px 20px 50px;
+      padding: 0 20px 20px;
     }
     .breadcrumb {
       .breadcrumb-item {
@@ -1126,6 +1126,9 @@
   a{
     display: block;
     width: 100%;
+    @include b768 {
+      display: inline;
+    }
     img {
       width: 100%;
     }

@@ -308,13 +308,24 @@ main {
     padding: 0;
     list-style: none;
     display: flex;
+    @include b768{
+        display: block;
+    }
+    @include b768{
+        // fle
+    }
     .breadcrumb-item {
         position: relative;
+        @include b768{
+            flex-wrap: wrap;
+            display: inline;
+            word-break: break-all;
+        }
         &.active {
             &::before {
               content: '';
               position: absolute;
-              bottom: -4px;
+              bottom: -2px;
               left: 0;
               width: 100%;
               height: 1px;
@@ -322,6 +333,7 @@ main {
         }
         & + .breadcrumb-item {
             margin-left: 30px;
+            margin-bottom: 4px;
             &::after {
                 content: '>';
                 position: absolute;
