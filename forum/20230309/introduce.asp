@@ -1,3 +1,6 @@
+<% setagent="apd_seminar" %>
+
+  <!--#include virtual="/includesU/zone_agentcheck.asp"-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,31 +9,31 @@
     <title>服務業缺工論壇 | 產業人才荒論壇 | 1111科技專區</title>
     <meta name="description" content="1111人力銀行邀集產官學各界專家，共同探討後疫情時代服務業的人才需求及缺工解方。" />
     <meta name="keywords" content="缺工、觀光業、服務業、1111、論壇活動、產業論壇" />
-    <meta property="og:title" content=">服務業缺工論壇 | 產業人才荒論壇 | 1111科技專區" />
+    <meta property="og:title" content="服務業缺工論壇 | 產業人才荒論壇 | 1111科技專區" />
     <meta property="og:description" content="1111人力銀行邀集產官學各界專家，共同探討後疫情時代服務業的人才需求及缺工解方。" />
     <meta property="og:url" content="https://seminar.1111.com.tw/forum/20230309/introduce.asp" />
-    <meta property="og:image" content="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/OG.jpg?v=20230116" />
+    <meta property="og:image" content="https://seminar.1111.com.tw/images/introduce_20230309/OG.jpg?v=20230116" />
     <!--[if lt IE 9]>
     <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
     <![endif]-->
     <!-- base -->
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.234/event22/design/seminar/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://seminar.1111.com.tw/css/normalize.css">
     <!-- vendor -->
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.234/event22/design/seminar/vendor/bootstrap/bootstrap-utilities.css">
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.234/event22/design/seminar/vendor/swiper/swiper-bundle.min.css?v=202210281741">
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.234/event22/design/seminar/vendor/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://seminar.1111.com.tw/vendor/bootstrap/bootstrap-utilities.css">
+    <link rel="stylesheet" type="text/css" href="https://seminar.1111.com.tw/vendor/swiper/swiper-bundle.min.css?v=202210281741">
+    <link rel="stylesheet" type="text/css" href="https://seminar.1111.com.tw/vendor/aos/aos.css">
     <!-- custom -->
-    <link rel="stylesheet" type="text/css" href="http://192.168.1.234/event22/design/seminar/css/style.css?v=20230106">
+    <link rel="stylesheet" type="text/css" href="https://seminar.1111.com.tw/css/style.css?v=20230106">
     <!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
 </head>
 <body>
     <!--header-->
-    <script charset="utf-8" src="http://192.168.1.234/event22/design/seminar/js/header.js?v=20230106"></script>
+    <script charset="utf-8" src="https://seminar.1111.com.tw/js/header.js?v=20230106"></script>
     <main>
         <article class="bannerImgRwd">
             <nav>
                 <ul class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="http://192.168.1.234/event22/design/seminar/index.html">首頁</a></li>
+                  <li class="breadcrumb-item"><a href="https://seminar.1111.com.tw/index.asp">首頁</a></li>
               
                   <li class="breadcrumb-item active">論壇講座</li>
                   <li class="breadcrumb-item active">2023&ensp;服務業缺工論壇</li>
@@ -38,10 +41,10 @@
             </nav> 
             <a href="https://1111.com.tw/195932/" target="_blank">
                 <picture>
-                    <source srcset="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/banner_425.svg?v=20230116" media="(max-width:425px)">
-                    <source srcset="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/banner_768.svg?v=20230116" media="(max-width:768px)">
-                    <source srcset="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/banner_1400.svg?v=20230116" media="(max-width:1400px)">
-                    <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/banner_1920.svg?v=20230116" alt=">服務業缺工論壇 | 產業人才荒論壇 | 1111科技專區:1111人力銀行邀集產官學各界專家，共同探討後疫情時代服務業的人才需求及缺工解方。">
+                    <source srcset="https://seminar.1111.com.tw/images/introduce_20230309/banner_425.svg?v=20230116" media="(max-width:425px)">
+                    <source srcset="https://seminar.1111.com.tw/images/introduce_20230309/banner_768.svg?v=20230116" media="(max-width:768px)">
+                    <source srcset="https://seminar.1111.com.tw/images/introduce_20230309/banner_1400.svg?v=20230116" media="(max-width:1400px)">
+                    <img src="https://seminar.1111.com.tw/images/introduce_20230309/banner_1920.svg?v=20230116" alt=">服務業缺工論壇 | 產業人才荒論壇 | 1111科技專區:1111人力銀行邀集產官學各界專家，共同探討後疫情時代服務業的人才需求及缺工解方。">
                 </picture>
             </a>
           
@@ -60,21 +63,21 @@
                 <h3>致詞貴賓</h3>
                 <div class="article_content guest_vip issue_1123">
                     <div class="guest">
-                        <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest01.jpg">
+                        <img src="https://seminar.1111.com.tw/images/introduce_20230309/guest01.jpg">
                         <div class="caption">
                             <h2>盧秀燕 (邀約中)</h2>
                             <p>臺中市 市長</p>
                         </div>
                       </div>
                       <div class="guest">
-                        <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest10.jpg">
+                        <img src="https://seminar.1111.com.tw/images/introduce_20230309/guest10.jpg">
                         <div class="caption">
                             <h2>許淑華 (邀約中)</h2>
                             <p>南投縣 縣長</p>
                         </div>
                       </div>
                       <div class="guest">
-                        <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest11.jpg">
+                        <img src="https://seminar.1111.com.tw/images/introduce_20230309/guest11.jpg">
                         <div class="caption">
                             <h2>王惠美 (邀約中)</h2>
                             <p>彰化縣 縣長</p>
@@ -113,14 +116,14 @@
                 <h3>與談人</h3>
                 <div class="article_content guest_p01">
                     <div class="guest">
-                        <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest08.jpg">
+                        <img src="https://seminar.1111.com.tw/images/introduce_20230309/guest08.jpg">
                         <div class="caption">
                             <h2>鄭信男</h2>
                             <p>大葉大學餐旅管理學系 系主任</p>
                         </div>
                     </div>
 					<div class="guest">
-						<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest04.jpg">
+						<img src="https://seminar.1111.com.tw/images/introduce_20230309/guest04.jpg">
 						<div class="caption">
 							<h2>黃正聰</h2>
                             <p>中台灣觀光產業聯盟 理事長</p>
@@ -128,35 +131,35 @@
 						</div>
 					</div>
 					<div class="guest">
-						<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest09.jpg?v=20230105">
+						<img src="https://seminar.1111.com.tw/images/introduce_20230309/guest09.jpg?v=20230105">
 						<div class="caption">
 							<h2>何信蒼</h2>
 							<p>台中市旅館商業同業公會 理事長</p>
 						</div>
 					</div> 
 					<div class="guest">
-						<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest02.jpg">
+						<img src="https://seminar.1111.com.tw/images/introduce_20230309/guest02.jpg">
 						<div class="caption">
 							<h2>李森斌 (邀約中)</h2>
 							<p>王品集團 副董事長</p>
 						</div>
 					</div>
                     <div class="guest">
-						<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest05.jpg">
+						<img src="https://seminar.1111.com.tw/images/introduce_20230309/guest05.jpg">
 						<div class="caption">
 							<h2>姜長安 (邀約中)</h2>
 							<p>社團法人台灣服務業發展協會 理事長</p>
 						</div>
 					</div>
 					<div class="guest">
-					<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest03.jpg">
+					<img src="https://seminar.1111.com.tw/images/introduce_20230309/guest03.jpg">
 					<div class="caption">
 						<h2>江啟臣 (邀約中)</h2>
 						<p>立法委員</p>
 					</div>
 					</div> 
 					<div class="guest">
-						<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/guest07.jpg">
+						<img src="https://seminar.1111.com.tw/images/introduce_20230309/guest07.jpg">
 						<div class="caption">
 							<h2>馬文君 (邀約中)</h2>
 							<p>立法委員</p>
@@ -164,70 +167,70 @@
 					</div>               
 				</div>
 
-        <h3>報名者發問</h3>
-        <div class="article_qa_content">
-            <div class="swiper qa_swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>飯店旅宿業</h4>
-                                <p>為了補足人力，對於外僑生每週打工時數限制是否有機會調整？</p>
+                <h3>報名者發問</h3>
+                <div class="article_qa_content">
+                    <div class="swiper qa_swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>飯店旅宿業</h4>
+                                        <p>為了補足人力，對於外僑生每週打工時數限制是否有機會調整？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>餐飲服務業</h4>
+                                        <p>目前缺工是因為疫情關係嗎？解封後是否會好轉？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>醫療服務業</h4>
+                                        <p>護理人員缺工已開出高薪及偏鄉租屋補助，還是找不到人，到底該怎麼解決？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>飯店旅宿業</h4>
+                                        <p>如何透過媒體曝光的優勢解決服務業缺工問題？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>餐飲服務業</h4>
+                                        <p>如何讓員工對公司有向心力，讓人才能留下來？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>飯店旅宿業</h4>
+                                        <p>關於服務業聘雇外籍勞工的可能性？及目前政府單位評估的進度？</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="qa_item">
+                                    <div class="qa_itemblur">
+                                        <h4>醫療服務業</h4>
+                                        <p>想要了解目前醫療服務業人力缺工現況如何？</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>餐飲服務業</h4>
-                                <p>目前缺工是因為疫情關係嗎？解封後是否會好轉？</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>醫療服務業</h4>
-                                <p>護理人員缺工已開出高薪及偏鄉租屋補助，還是找不到人，到底該怎麼解決？</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>飯店旅宿業</h4>
-                                <p>如何透過媒體曝光的優勢解決服務業缺工問題？</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>餐飲服務業</h4>
-                                <p>如何讓員工對公司有向心力，讓人才能留下來？</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>飯店旅宿業</h4>
-                                <p>關於服務業聘雇外籍勞工的可能性？及目前政府單位評估的進度？</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="qa_item">
-                            <div class="qa_itemblur">
-                                <h4>醫療服務業</h4>
-                                <p>想要了解目前醫療服務業人力缺工現況如何？</p>
-                            </div>
-                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
             </div>
             
         </article>
@@ -287,12 +290,12 @@
                     <h3>主辦單位</h3>
                     <div class="unit-img">
                         <a href="https://1111.com.tw/195936/" target="_blank">
-                            <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_01.jpg" alt="1111人力銀行">
+                            <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_01.jpg" alt="1111人力銀行">
                         </a>
                     </div>
                     <!-- <div class="unit-img">
 						<a href="https://www.taichung.gov.tw/" target="_blank">
-							<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_02.jpg" alt="臺中市政府">
+							<img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_02.jpg" alt="臺中市政府">
 						</a>
 					</div> -->
                 </div>
@@ -301,14 +304,14 @@
                     <div class="unit-img-group">
 						<div class="unit-img">
 							<a href="https://www.chcg.gov.tw/" target="_blank">
-								<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_03.jpg" alt="彰化縣政府"><span>彰化縣政府</span>
+								<img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_03.jpg" alt="彰化縣政府"><span>彰化縣政府</span>
 							</a>
 						</div>
                     </div>
                     <div class="unit-img-group">
 						<div class="unit-img">
 							<a href="https://www.nantou.gov.tw/" target="_blank">
-								<img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_04.jpg" alt="南投縣政府"><span>南投縣政府</span>
+								<img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_04.jpg" alt="南投縣政府"><span>南投縣政府</span>
 							</a>
 						</div>
                     </div>
@@ -318,28 +321,28 @@
                     <div class="unit-img-group">
                         <div class="unit-img">
                             <a href="https://www.hr.org.tw/" target="_blank">
-                                <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_05.jpg" alt="中華人事主管協會"><span>中華人事主管協會</span>
+                                <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_05.jpg" alt="中華人事主管協會"><span>中華人事主管協會</span>
                             </a>
                         </div>
                         <div class="unit-img">
                             <a href="http://www.roccoc.org.tw/" target="_blank">
-                                <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_06.jpg" alt="中華民國全國商業總會"><span>中華民國全國商業總會</span>
+                                <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_06.jpg" alt="中華民國全國商業總會"><span>中華民國全國商業總會</span>
                             </a>
                         </div>
                     
                         <div class="unit-img">
                             <a href="http://www.cnfi.org.tw/" target="_blank">
-                                <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_07.jpg" alt="中華民國全國工業總會 "><span>中華民國全國工業總會 </span>
+                                <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_07.jpg" alt="中華民國全國工業總會 "><span>中華民國全國工業總會 </span>
                             </a>
                         </div>
                         <div class="unit-img">
                             <a href="https://www.asit.org.tw/" target="_blank">
-                                <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_08.jpg" alt="社團法人台灣服務業發展協會"><span>社團法人台灣服務業發展協會</span>
+                                <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_08.jpg" alt="社團法人台灣服務業發展協會"><span>社團法人台灣服務業發展協會</span>
                             </a>
                         </div>
                         <div class="unit-img">
                             <a href="https://ttha-taichung.org/zh/news/" target="_blank">
-                                <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_09.jpg" alt="台中市觀光旅館商業同業公會 "><span>台中市觀光旅館商業同業公會 </span>
+                                <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_09.jpg" alt="台中市觀光旅館商業同業公會 "><span>台中市觀光旅館商業同業公會 </span>
                             </a>
                         </div>
                     </div>
@@ -349,7 +352,7 @@
                     <div class="unit-img-group">
                         <div class="unit-img">
                             <a href="https://1111.com.tw/195938/" target="_blank">
-                                <img src="http://192.168.1.234/event22/design/seminar/images/introduce_20230309/unit_logo_10.jpg"><span>科技島</span>
+                                <img src="https://seminar.1111.com.tw/images/introduce_20230309/unit_logo_10.jpg"><span>科技島</span>
                             </a>
                         </div>
                     </div>
@@ -358,13 +361,13 @@
         </article>
     </main>
     <!--footer-->
-    <script charset="utf-8" src="http://192.168.1.234/event22/design/seminar/js/footer.js?v=202210171529"></script>
+    <script charset="utf-8" src="https://seminar.1111.com.tw/js/footer.js?v=202210171529"></script>
     <script src="https://www.1111.com.tw/Content2/js/lib/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="http://192.168.1.234/event22/design/seminar/js/custom.js?v=20221227" type="text/javascript" charset="utf-8"></script>
+    <script src="https://seminar.1111.com.tw/js/custom.js?v=20221227" type="text/javascript" charset="utf-8"></script>
     <!-- vendor -->
-    <script src="http://192.168.1.234/event22/design/seminar/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="http://192.168.1.234/event22/design/seminar/vendor/swiper/swiper-bundle.min.js?v=202210281741"></script>
-    <script src="http://192.168.1.234/event22/design/seminar/vendor/aos/aos.js"></script>
+    <script src="https://seminar.1111.com.tw/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="https://seminar.1111.com.tw/vendor/swiper/swiper-bundle.min.js?v=202210281741"></script>
+    <script src="https://seminar.1111.com.tw/vendor/aos/aos.js"></script>
     <script type="text/javascript">
         var swiper = new Swiper(".qa_swiper", {
             direction: "vertical",
@@ -401,5 +404,7 @@
             });
         });
     </script>
+    <!-- GA -->
+    <!--#include virtual="/adbanner/banner_counterU.asp"-->
 </body>
 </html>
